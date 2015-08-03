@@ -1,0 +1,48 @@
+#header{
+	background-color: black;
+	width: 100%;
+	.logo{
+		margin-top: 40px;
+		z-index: 99999;
+	}
+	.promo{
+		margin-top: -15%;
+	}
+	.noise{
+		margin-top: 5%;
+	}
+}
+
+#support{
+	background-color: $red;
+	width: 100%;
+	margin-top: -5%;
+	z-index: 999999;
+	position: relative;	
+	img{
+		margin-bottom: 25px;
+	}
+	h1{
+		font-family: 'bebas_neue_regularregular';
+		color: white;
+		text-transform: uppercase;
+	}
+}
+#support:before{
+  content: " ";
+  background:url('https://s3.amazonaws.com/myfangate.com/hollywood/redtear.png');
+  background-repeat: repeat-x; 
+  width: 100%;
+  height: 40px;
+  margin-top: -30px;
+  position: absolute;;	  	  	  	  
+}
+#support:after{
+  content: " ";
+  background:url('https://s3.amazonaws.com/myfangate.com/hollywood/redteardown.png');
+  background-repeat: repeat-x; 
+  width: 100%;
+  height: 40px;
+  margin-bottom: -30px;
+  position: absolute;;	  	  	  	  
+}
