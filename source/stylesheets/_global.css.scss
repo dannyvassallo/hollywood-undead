@@ -3,3 +3,21 @@ $red: #d93631;
 .full-w{
 	width: 100%;
 }
+
+// contest tweaks
+#contest-widget{
+  margin-top: 10%;
+}
+#contest-wrapper .ss-form input {
+  width: 100%;
+}
+.contest-btn{
+	font-family: 'octin_spraypainta_regular' !important;
+	color: white !important;
+	background-color: $red !important;
+	border: white !important;	
+	border-radius: 0 !important;
+}
+#first-section:nth-child(3) {
+    display: none !important;
+}
