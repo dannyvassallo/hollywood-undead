@@ -38,6 +38,7 @@
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  activate :php #comment out to stop kernel panic
 end
 
 # Methods defined in the helpers block are available in templates
@@ -59,6 +60,7 @@ set :fonts_dir,  'fonts-folder'
 
 # Build-specific configuration
 configure :build do
+  activate :php 
   # For example, change the Compass output style for deployment
   activate :minify_css
 
