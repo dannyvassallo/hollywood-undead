@@ -1,0 +1,22 @@
+.dcsns-toolbar{
+  display: none;
+}
+.stream li{
+  background-color: rgba(0,0,0,0);
+  color: white;
+  box-shadow: none;
+  border: 2px solid $red;
+  border-radius: 4px;
+}
+.section-intro{
+  background-color: $red !important;
+}
+.stream li .inner {
+  color: $red;
+  a{
+    color: $red;
+  }
+  span{
+    color: $red;
+  }
+}

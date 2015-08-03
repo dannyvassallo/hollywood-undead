@@ -1,0 +1,67 @@
+#tourdates-head{
+	background:url('https://s3.amazonaws.com/myfangate.com/hollywood/red-repeat.jpg');
+	background-repeat: repeat; 
+	width: 100%;	
+	z-index: 999999;
+	position: relative;	
+  box-shadow: 0px 0px 100px 50px rgba(0,0,0,0.5);
+	h1{
+    font-family: 'octin_spraypainta_regular';
+    font-size: 60px;
+    color: white;
+		text-transform: uppercase;
+	}
+}
+#tourdates-head:before{
+  content: " ";
+  background:url('https://s3.amazonaws.com/myfangate.com/hollywood/redtear.png');
+  background-repeat: repeat-x; 
+  width: 100%;
+  height: 40px;
+  margin-top: -30px;
+  position: absolute;;	  	  	  	  
+}
+#tourdates-head:after{
+  content: " ";
+  background:url('https://s3.amazonaws.com/myfangate.com/hollywood/redteardown.png');
+  background-repeat: repeat-x; 
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+  position: absolute;;	  	  	  	  
+}
+
+#dates{
+  background:url('https://s3.amazonaws.com/myfangate.com/hollywood/cement.jpg');
+  background-repeat: repeat; 
+  width: 100%;  
+  .listing{
+    margin: 75px auto; 
+  }
+  ul{
+    padding: 0 10px 0 10px
+  }
+  li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom:1px solid #fff;
+    div{
+      height: 40px;
+    }
+    .date{
+      float: left;
+      padding: 6px 12px;
+      font-family: 'bebas_neue_regularregular';
+      font-size: 18px;
+      color: white;
+    }
+    .ticket{
+      float: right;
+      font-family: 'octin_spraypainta_regular';
+      color: white;
+      background-color: $red;
+      border-radius: 0;
+    }
+  }
+}

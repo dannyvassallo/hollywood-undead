@@ -1,0 +1,20 @@
+#contest{
+	background:url('https://s3.amazonaws.com/myfangate.com/hollywood/white-grunge.jpg');
+	background-repeat: repeat;
+	padding-bottom: 100px; 
+	.tagline{
+		margin-top: 60px;
+	    z-index: 999999;
+	    position: relative;		
+		h1{
+			line-height: 30px;
+			color: $red;
+			text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+			z-index: 999999999;
+		}
+	}
+	h1{
+	    font-family: 'octin_spraypainta_regular';
+	    font-size: 60px;
+	}
+}

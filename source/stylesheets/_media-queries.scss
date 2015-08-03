@@ -1,0 +1,169 @@
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .noise-margin{
+            margin-top: 30px;
+        }
+        #scroll, #support{
+            h1{
+                font-size: 20px;
+            }
+        }
+        #contest{
+            .tagline{
+                margin-top: 30px;
+                h1{
+                    line-height: 10px;
+                }
+            }
+            h1{
+                font-size: 25px;
+            }
+        }
+        #dates{
+            .listing .date{
+                font-size: 10px;
+            }
+            h1{
+                font-size: 20px;               
+            }
+        }
+        #join-head{
+            h1{
+                font-size: 20px;
+            }
+        }
+        .social{
+            text-align: center;
+        }
+        .sponsors{
+            text-align: center;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        .noise-margin{
+            margin-top: 30px;
+        }
+        #scroll, #support{
+            h1{
+                font-size: 30px;
+            }
+        }
+        #contest{
+            .tagline{
+                margin-top: 30px;
+                h1{
+                    line-height: 10px;
+                }
+            }
+            h1{
+                font-size: 30px;
+            }
+        }
+        #dates{
+            .listing .date{
+                font-size: 15px;
+            }
+            h1{
+                font-size: 30px;               
+            }
+        }
+        #join-head{
+            h1{
+                font-size: 30px;
+            }
+        }
+        .social{
+            text-align: center;
+        }
+        .sponsors{
+            text-align: center;
+        }       
+    }
+
+    // /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .noise-margin{
+            margin-top: 30px;
+        }
+        #scroll, #support{
+            h1{
+                font-size: 30px;
+            }
+        }
+        #contest{
+            .tagline{
+                margin-top: 50px;
+                h1{
+                    line-height: 27px;
+                }
+            }
+            h1{
+                font-size: 50px;
+            }
+        }
+        #dates{
+            .listing .date{
+                font-size: 15px;
+            }
+            h1{
+                font-size: 40px;               
+            }
+        }
+        #join-head{
+            h1{
+                font-size: 40px;
+            }
+        }
+        .social{
+            text-align: center;
+        }
+        .sponsors{
+            text-align: center;
+        }       
+    }
+
+    // /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 992px) {
+        .noise-margin{
+            margin-top: 30px;
+        }
+        #scroll, #support{
+            h1{
+                font-size: 36px;
+            }
+        }
+        #contest{
+            .tagline{
+                margin-top: 60px;
+                h1{
+                    line-height: 30px;
+                }
+            }
+            h1{
+                font-size: 60px;
+            }
+        }
+        #dates{
+            .listing .date{
+                font-size: 18px;
+            }
+            h1{
+                font-size: 60px;               
+            }
+        }
+        #join-head{
+            h1{
+                font-size: 60px;
+            }
+        }
+        .social{
+            text-align: left;
+        }
+        .sponsors{
+            text-align: right;
+        }       
+    }
