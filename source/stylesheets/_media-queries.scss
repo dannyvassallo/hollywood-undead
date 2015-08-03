@@ -1,0 +1,79 @@
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        .noise-margin{
+            margin-top: 30px;
+        }
+        #scroll, #support{
+            h1{
+                font-size: 20px;
+            }
+        }
+        #contest{
+            .tagline{
+                margin-top: 30px;
+                h1{
+                    line-height: 10px;
+                }
+            }
+            h1{
+                font-size: 25px;
+            }
+        }
+        #dates{
+            .listing .date{
+                font-size: 10px;
+            }
+            h1{
+                font-size: 20px;               
+            }
+        }
+        #join-head{
+            h1{
+                font-size: 20px;
+            }
+        }
+        .social{
+            text-align: center;
+        }
+        .sponsors{
+            text-align: center;
+        }
+    }
+
+    // /* Extra Small Devices, Phones */ 
+    // @media only screen and (max-width : 480px) {
+    //     .noise-margin{
+    //         margin-top: 40px !important;
+    //     }        
+    //     #contest{
+    //         .tagline{
+    //             margin-top: 40px;
+    //             h1{
+    //                 line-height: 15px;
+    //             }
+    //         }
+    //         h1{
+    //             font-size: 25px;
+    //         }
+    //     }
+    //     .listing .date{
+    //         font-size: 8px;
+    //     }        
+    // }
+
+    // /* Small Devices, Tablets */
+    // @media only screen and (max-width : 768px) {
+
+    // }
+
+    // /* Medium Devices, Desktops */
+    // @media only screen and (max-width : 992px) {
+
+    // }
+
+    // /* Large Devices, Wide Screens */
+    // @media only screen and (max-width : 1200px) {
+
+    // }
