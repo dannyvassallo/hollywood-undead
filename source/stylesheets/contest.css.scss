@@ -1,0 +1,15 @@
+#contest{
+	.tagline{
+		margin-top: 60px;		
+		h1{
+			line-height: 30px;
+			color: $red;
+			text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+			z-index: 999999999;
+		}
+	}
+	h1{
+	    font-family: 'octin_spraypainta_regular';
+	    font-size: 60px;
+	}
+}
