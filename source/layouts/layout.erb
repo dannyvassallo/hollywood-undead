@@ -17,5 +17,44 @@
 
     <!-- Javascripts -->
     <%= javascript_include_tag  "all" %>
+    <script>
+      // init contest //
+      $("#contest-widget").shareContestFB({
+        context: {
+          fbAppId: "1645838892305711",
+          fbShareTitle: "Welcome To The Fearless Summer",
+          fbShareLink: "http://fngt.it/Fearlesssummer15/f",
+          fbImageUrl: "https://s3.amazonaws.com/myfangate.com/fearlesssummer16/phase2/share.jpg",
+          fbSubText: "http://fngt.it/Fearlessatapmas/f",
+          fbDialog: "Enter to win weekly prizes!",
+          formActionUrlId: "1eXasBxlCpeSbn6d2__QQzNit1u8ElzCixJxtixI5-M8",
+          firstNameId: "749925490",
+          lastNameId: "453795809",
+          emailId: "1493557255",
+          optInId: "583147646",
+          rulesId: "1082888376",
+          fbCheckId: "701792494",
+          twitterCheckId: "1730686214",
+          contactName: "Fearless Records",
+          rulesLink: "http://google.com",
+          thankYouMsg: "Thanks for entering!",
+        }
+      });
+      // TOUR DATES
+      $("#entry_1392261638").hide();
+      var formfield = $('#entry_1493557255').parent();
+      formfield.parent().parent().append('<select multiple id=\"e1\" style=\"width:100%\"></select>');
+      $('.date').each(function(){ 
+        var text = $(this).text(); 
+        $('#e1').append('<option value=\"'+text+'\">'+text+'</option>')
+      });      
+      $("#e1").select2({
+          maximumSelectionLength: 1,
+          placeholder: "Select a Tour Date"
+      });  
+    </script>
+    <script type="text/javascript">
+
+    </script>
   </body>
 </html>
