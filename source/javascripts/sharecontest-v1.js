@@ -3181,7 +3181,9 @@ $(function() {
                 var t = $(".email-address").val(),
                     e = t.indexOf("@"),
                     s = t.lastIndexOf(".");
-                $(".first-name").val().length < 1 ? $(".form-error").html("Please enter your first name.") : $(".last-name").val().length < 1 ? $(".form-error").html("Please enter your last name.") : 1 > e || e + 2 > s || s + 2 >= t.length ? $(".form-error").html("Please enter a valid email address.") : $(".rules").prop("checked") ? ($("#shares").removeClass("hider"), $(".goog-inline-block").removeClass("hider"), $("#first-section").addClass("hider"), $(".form-error").html("")) : $(".form-error").html("Please agree to the rules.")
+                var tourdate = $('#e1').val();
+				$("#entry_1392261638").val(tourdate);    
+                $(".first-name").val().length < 1 ? $(".form-error").html("Please enter your first name.") : $(".last-name").val().length < 1 ? $(".form-error").html("Please enter your last name.") : 1 > e || e + 2 > s || s + 2 >= t.length ? $(".form-error").html("Please enter a valid email address.") :  $("#entry_1392261638").val().length < 1 ? $(".form-error").html("Please select a tour date.") : $(".rules").prop("checked") ? ($("#shares").removeClass("hider"), $(".goog-inline-block").removeClass("hider"), $("#first-section").addClass("hider"), $(".form-error").html("")) : $(".form-error").html("Please agree to the rules.")
             }), $(".fbclick").on("click", function() {
                 t()
             }), $("#hidden_iframe").load(function() {

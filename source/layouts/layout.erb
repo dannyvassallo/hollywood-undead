@@ -39,7 +39,18 @@
           rulesLink: "http://google.com",
           thankYouMsg: "Thanks for entering!",
         }
-      });     
+      });
+      $("#entry_1392261638").hide();
+      var formfield = $('#entry_1493557255').parent();
+      formfield.parent().parent().append('<select multiple id=\"e1\" style=\"width:100%\"></select>');
+      $('.date').each(function(){ 
+        var text = $(this).text(); 
+        $('#e1').append('<option value=\"'+text+'\">'+text+'</option>')
+      });      
+      $("#e1").select2({
+          maximumSelectionLength: 1,
+          placeholder: "Select a Tour Date"
+      });  
     </script>
     <script type="text/javascript">
 
